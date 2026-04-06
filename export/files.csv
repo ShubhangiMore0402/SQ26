@@ -1,0 +1,98 @@
+id,project_id,file_name,file_type,status
+1,1,EFL_ILP_ScopingReview_CodedData_20250718.qdpx,qdpx,SUCCEEDED
+2,1,Theme_year.xlsx,xlsx,SUCCEEDED
+3,1,S2_Table. Data Charting and CCAT Scores of 56 Articles.docx,docx,SUCCEEDED
+4,1,Country_Article counts.xlsx,xlsx,SUCCEEDED
+5,2,Description of the data set.pdf,pdf,SUCCEEDED
+6,2,Polish debates on higher education party manifestos.qdpx,qdpx,SUCCEEDED
+7,2,Polish debates on higher education party manifestos.mx20,mx20,SUCCEEDED
+8,2,DiscussData-polish-debates-on-higher-education-in-the-sejm-and-party-manifestos-v1.1-description.pdf,pdf,SUCCEEDED
+9,2,Polish debates on higher education party manifestos.mx22,mx22,SUCCEEDED
+10,3,Data File.xlsx,xlsx,SUCCEEDED
+11,3,Qual Coder Coding File .qdpx,qdpx,SUCCEEDED
+12,3,Themating Coding File.xlsx,xlsx,SUCCEEDED
+13,3,Meta Data_Bibiliometric Analysis.csv,csv,SUCCEEDED
+14,4,25_PLANET4B_Interview-Exploratory2_Pisa_20240703_Transcript.docx,docx,SUCCEEDED
+15,4,24_PLANET4B_Interview-Exploratory1_Pisa_20230619_Transcript.docx,docx,SUCCEEDED
+16,4,PLANET4B_Metadata-Frame-Analysis_Pisa_20251013_metadata.docx,docx,SUCCEEDED
+17,4,13_PLANET4B_GreyLiterature11_Pisa_2023_pdf.pdf,pdf,SUCCEEDED
+18,4,2_PLANET4B_Frame-Analysys-Summary_Pisa_20250520_ProcessedData.docx,docx,SUCCEEDED
+19,4,17_PLANET4B_GreyLiterature15_Pisa_2024_pdf.pdf,pdf,SUCCEEDED
+20,4,1_PLANET4B_Frame-Analysys-Complete_Pisa_20250520_ProcessedData.docx,docx,SUCCEEDED
+21,4,16_PLANET4B_GreyLiterature14_Pisa_2023_pdf.pdf,pdf,SUCCEEDED
+22,4,7_PLANET4B_GreyLiterature5_Pisa_2020_pdf.pdf,pdf,SUCCEEDED
+23,4,5_PLANET4B_GreyLiterature3_Pisa_2020_pdf.pdf,pdf,SUCCEEDED
+24,4,4_PLANET4B_GreyLiterature2_Pisa_2016_pdf.pdf,pdf,SUCCEEDED
+25,4,14_PLANET4B_GreyLiterature12_Pisa_2023_pdf.pdf,pdf,SUCCEEDED
+26,4,10_PLANET4B_GreyLiterature8_Pisa_2021_pdf.pdf,pdf,SUCCEEDED
+27,4,23_PLANET4B_QDPXProject-FrameAnalysis_Pisa_20250514_Qualitative-Analysis-Project.qdpx,qdpx,SUCCEEDED
+28,4,9_PLANET4B_GreyLiterature7_Pisa_2021_pdf.pdf,pdf,SUCCEEDED
+29,4,8_PLANET4B_GreyLiterature6_Pisa_2020_pdf.pdf,pdf,SUCCEEDED
+30,4,11_PLANET4B_GreyLiterature9_Pisa_2023_pdf.pdf,pdf,SUCCEEDED
+31,4,6_PLANET4B_GreyLiterature4_Pisa_2020_pdf.pdf,pdf,SUCCEEDED
+32,4,12_PLANET4B_GreyLiterature10_Pisa_2023_pdf.pdf,pdf,SUCCEEDED
+33,4,19_PLANET4B_Interview-Biomimicry_Pisa_20231128_Transcript.docx,docx,SUCCEEDED
+34,4,15_PLANET4B_GreyLiterature13_Pisa_2023_pdf.pdf,pdf,SUCCEEDED
+35,4,22_PLANET4B_Interview-TE_Pisa_20240424_Transcript.docx,docx,SUCCEEDED
+36,4,3_PLANET4B_GreyLiterature1_Pisa_2016_pdf.pdf,pdf,SUCCEEDED
+37,4,18_PLANET4B_GreyLiterature16_Pisa_2025_pdf.pdf,pdf,SUCCEEDED
+38,4,26_PLANET4B_Interview-Exploratory3_Pisa_20231120_Transcript.doc,doc,SUCCEEDED
+39,4,20_PLANET4B_Interview-CISL_Pisa_20231129_Transcript.docx,docx,SUCCEEDED
+40,4,21_PLANET4B_Interview-FP_Pisa_20231201_Transcript.docx,docx,SUCCEEDED
+41,4,27_PLANET4B_Interview-Exploratory4_Pisa_20241107_Transcript.docx,docx,SUCCEEDED
+42,5,PLANET4B_Metadata-BusinessModels_Pisa_20251014_metadata.docx,docx,SUCCEEDED
+43,5,27_PLANET4B_Oscalito-FieldVisit_20240717_docx.docx,docx,SUCCEEDED
+44,5,7_PLANET4B_ArtknitStudios-Doc6_2025_docx.docx,docx,SUCCEEDED
+45,5,48_PLANET4B_Business-Models-SUMMARY_Pisa_20251009_docx.docx,docx,SUCCEEDED
+46,5,25_PLANET4B_Oscalito-Interview8_20240930_docx.docx,docx,SUCCEEDED
+47,5,19_PLANET4B_Oscalito-Interview2_20240716_docx.docx,docx,SUCCEEDED
+48,5,29_PLANET4B_Rifò-Doc2_2023_pdf.pdf,pdf,SUCCEEDED
+49,5,22_PLANET4B_Oscalito-Interview5_20240717_docx.docx,docx,SUCCEEDED
+50,5,43_PLANET4B_Rifò-Interview1_20240718_pdf.docx,docx,SUCCEEDED
+51,5,9_PLANET4B_ArtknitStudios-Doc8_2025_pdf.pdf,pdf,SUCCEEDED
+52,5,32_PLANET4B_Rifò-Doc5_2025_pdf.pdf,pdf,SUCCEEDED
+53,5,21_PLANET4B_Oscalito-Interview4_20240717_docx.docx,docx,SUCCEEDED
+54,5,8_PLANET4B_ArtknitStudios-Doc7_2025_docx.docx,docx,SUCCEEDED
+55,5,13_PLANET4B_Oscalito-Doc2_2022_pdf.pdf,pdf,SUCCEEDED
+56,5,40_PLANET4B_Rifò-Doc13_2022_docx.docx,docx,SUCCEEDED
+57,5,1_PLANET4B_QDPXProject-BusinessModels_Pisa_20250919_Qualitative-Analysis-Project.qdpx,qdpx,SUCCEEDED
+58,5,38_PLANET4B_Rifò-Doc11_2025_pdf.pdf,pdf,SUCCEEDED
+59,5,35_PLANET4B_Rifò-Doc8_2025_pdf.pdf,pdf,SUCCEEDED
+60,5,18_PLANET4B_Oscalito-Interview1_20230712_docx.docx,docx,SUCCEEDED
+61,5,6_PLANET4B_ArtknitStudios-Doc5_2025_pdf.pdf,pdf,SUCCEEDED
+62,5,26_PLANET4B_Oscalito-Interview9_20241014_docx.docx,docx,SUCCEEDED
+63,5,3_PLANET4B_ArtknitStudios-Doc2_2020_pdf.pdf,pdf,SUCCEEDED
+64,5,34_PLANET4B_Rifò-Doc7_2025_pdf.pdf,pdf,SUCCEEDED
+65,5,12_PLANET4B_Oscalito-Doc1_2019_pdf.pdf,pdf,SUCCEEDED
+66,5,10_PLANET4B_ArtknitStudios-Doc9_2025_pdf.pdf,pdf,SUCCEEDED
+67,5,11_PLANET4B_ArtknitStudios-Interview1_20240715_docx.docx,docx,SUCCEEDED
+68,5,15_PLANET4B_Oscalito-Doc4_2023_pdf.pdf,pdf,SUCCEEDED
+69,5,46_PLANET4B_Rifò-FieldVisit2_20240316_pdf.docx,docx,SUCCEEDED
+70,5,14_PLANET4B_Oscalito-Doc3_2023_pdf.pdf,pdf,SUCCEEDED
+71,5,23_PLANET4B_Oscalito-Interview6_20240717_docx.docx,docx,SUCCEEDED
+72,5,20_PLANET4B_Oscalito-Interview3_20240717_docx.docx,docx,SUCCEEDED
+73,5,4_PLANET4B_ArtknitStudios-Doc3_2022_pdf.pdf,pdf,SUCCEEDED
+74,5,24_PLANET4B_Oscalito-Interview7_20240717_docx.docx,docx,SUCCEEDED
+75,5,28_PLANET4B_Rifò-Doc1_2022_pdf.pdf,pdf,SUCCEEDED
+76,5,17_PLANET4B_Oscalito-Doc6_2023_docx.docx,docx,SUCCEEDED
+77,5,30_PLANET4B_Rifò-Doc3_2024_pdf.pdf,pdf,SUCCEEDED
+78,5,37_PLANET4B_Rifò-Doc10_2025_pdf.pdf,pdf,SUCCEEDED
+79,5,45_PLANET4B_Rifò-FieldVisit1_20240316_pdf.docx,docx,SUCCEEDED
+80,5,36_PLANET4B_Rifò-Doc9_2025_pdf.pdf,pdf,SUCCEEDED
+81,5,39_PLANET4B_Rifò-Doc12_2025_docx.docx,docx,SUCCEEDED
+82,5,31_PLANET4B_Rifò-Doc4_2025_pdf.pdf,pdf,SUCCEEDED
+83,5,2_PLANET4B_ArtknitStudios-Doc1_2018_pdf.pdf,pdf,SUCCEEDED
+84,5,41_PLANET4B_Rifò-Doc14_2023_pdf.pdf,pdf,SUCCEEDED
+85,5,42_PLANET4B_Rifò-Doc15_2025_pdf.pdf,pdf,SUCCEEDED
+86,5,44_PLANET4B_Rifò-Interview2_20240920_pdf.docx,docx,SUCCEEDED
+87,5,33_PLANET4B_Rifò-Doc6_2025_pdf.pdf,pdf,SUCCEEDED
+88,5,47_PLANET4B_Rifò-FieldVisit3_20240316_pdf.docx,docx,SUCCEEDED
+89,5,5_PLANET4B_ArtknitStudios-Doc4_2024_pdf.pdf,pdf,SUCCEEDED
+90,5,16_PLANET4B_Oscalito-Doc5_2023_pdf.pdf,pdf,SUCCEEDED
+91,6,COMENTARIOS_TIKTOK.qdpx,qdpx,SUCCEEDED
+92,6,readme-es_tiktok.txt,txt,SUCCEEDED
+93,7,Codebook_for_Vollrath_Scoping_Review_MSc_2022.docx,docx,SUCCEEDED
+94,7,Oil_and_Gas_Methane_Emissions_Scoping_Review_Update_Data.tab,tab,SUCCEEDED
+95,7,Oil_and_Gas_Methane_Emissions_Scoping_Review_Vollrath_MSc_2022.nvp,nvp,SUCCEEDED
+96,7,Oil_and_Gas_Methane_Emissions_Scoping_Review_Vollrath_MSc_2022.qdpx,qdpx,SUCCEEDED
+97,7,Scoping_Review_Reference_List.docx,docx,SUCCEEDED

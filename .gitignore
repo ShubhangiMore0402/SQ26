@@ -1,14 +1,3 @@
-# ── Generated database ────────────────────────────────────────────────────────
-qdarchive_metadata.db
-qdarchive_metadata.db-shm
-qdarchive_metadata.db-wal
-
-# ── Downloaded research data (can be large; share via link instead) ───────────
-downloads/
-
-# ── CSV exports (regenerated from DB; share via link for submission) ──────────
-export/
-
 # ── Python ────────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
