@@ -4,7 +4,7 @@
 
 This repository contains the data acquisition pipeline for **Part 1** of the QDArchive seeding project. The goal is to find, download, and catalogue publicly available qualitative research projects with a focus on QDA (Qualitative Data Analysis) files from Zenodo and Harvard Dataverse.
 
-All metadata is stored in a local SQLite database. Downloaded files follow a standardised folder structure. No data is transformed at download time — raw values are preserved and quality issues are flagged separately.
+All metadata is stored in a local SQLite database. Downloaded files follow a standardised folder structure. No data is transformed at download time raw values are preserved and quality issues are flagged separately.
 
 ---
 
@@ -169,11 +169,11 @@ Datasets without a license are skipped.
 
 ## Known data quality issues
 
-1. **Keyword format inconsistency** — some keywords appear as comma-separated strings.
-2. **Missing license** — such records are skipped.
-3. **Zenodo file list incomplete** — some records require a secondary API call.
-4. **Language missing (Dataverse)** — not available at search level.
-5. **Cross-repository duplicates** — resolved via DOI in later stages.
+1. **Keyword format inconsistency** : some keywords appear as comma-separated strings.
+2. **Missing license** : such records are skipped.
+3. **Zenodo file list incomplete** : some records require a secondary API call.
+4. **Language missing (Dataverse)** : not available at search level.
+5. **Cross-repository duplicates** : resolved via DOI in later stages.
 
 ---
 
