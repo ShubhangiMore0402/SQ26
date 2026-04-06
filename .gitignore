@@ -1,0 +1,61 @@
+# ── Generated database ────────────────────────────────────────────────────────
+qdarchive_metadata.db
+qdarchive_metadata.db-shm
+qdarchive_metadata.db-wal
+
+# ── Downloaded research data (can be large; share via link instead) ───────────
+downloads/
+
+# ── CSV exports (regenerated from DB; share via link for submission) ──────────
+export/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# Keep the notebook itself but ignore any auto-save checkpoints
+!qdarchive_part1.ipynb
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Secrets / credentials (never commit these) ────────────────────────────────
+.env
+.env.*
+*.token
+secrets.py
+config_local.py
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg

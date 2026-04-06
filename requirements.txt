@@ -1,0 +1,5 @@
+requests>=2.31.0
+tqdm>=4.66.0
+sqlite-utils>=3.35
+jupyter>=1.0.0
+ipykernel>=6.0.0
