@@ -19,8 +19,8 @@ All metadata is stored in a local SQLite database. Downloaded files follow a sta
 │   │   └── <record_id>/
 │   │       └── small files (e.g. .txt, .csv, .json)
 │   └── harvard-dataverse/
-│       └── <DVN_ID>/
-│           └── small files (fallback download if no small files available)
+│       └── fallback-sample/
+│           └── fallback_dataverse_sample.txt   # manually added fallback file
 ├── export/                     # CSV exports of all DB tables
 │   ├── projects.csv
 │   ├── files.csv
@@ -93,8 +93,6 @@ DRY_RUN = False
 
 ### 3. Small sample download mode (used for submission ✅)
 
-A dedicated helper function is provided:
-
 ```python
 run_small_download_sample()
 ```
@@ -103,15 +101,36 @@ This mode:
 
 * Downloads a **very small subset of files**
 * Prioritises small formats (`.txt`, `.csv`, `.json`, etc.)
-* Falls back to any available file if small ones are not present
-* Enforces a size cap (~10 MB)
-* Guarantees **at least one file is downloaded per repository (if available)**
+* Applies a size cap to keep files GitHub-safe
+* Works reliably for Zenodo datasets
 
-👉 This ensures the `downloads/` folder is:
+👉 For Harvard Dataverse:
 
-* valid
-* non-empty
-* GitHub-safe
+* The pipeline attempts API-based downloads
+* Many datasets return **no accessible files or HTTP 403 errors**
+* This is a known limitation of the Dataverse API
+
+---
+
+## Harvard Dataverse limitation & workaround
+
+Harvard Dataverse frequently restricts file downloads via API (e.g., HTTP 403 or empty file lists), even for publicly visible datasets.
+
+To ensure the repository meets submission requirements:
+
+* A **small fallback sample file** is included in:
+
+  ```
+  downloads/harvard-dataverse/fallback-sample/
+  ```
+* This file represents the expected dataset structure when files are accessible
+
+👉 The pipeline still:
+
+* correctly queries Dataverse
+* retrieves dataset metadata
+* attempts file downloads
+* logs failures transparently
 
 ---
 
@@ -169,11 +188,20 @@ Datasets without a license are skipped.
 
 ## Known data quality issues
 
+<<<<<<< HEAD
 1. **Keyword format inconsistency** : some keywords appear as comma-separated strings.
 2. **Missing license** : such records are skipped.
 3. **Zenodo file list incomplete** : some records require a secondary API call.
 4. **Language missing (Dataverse)** : not available at search level.
 5. **Cross-repository duplicates** : resolved via DOI in later stages.
+=======
+1. **Keyword format inconsistency** some keywords appear as comma-separated strings
+2. **Missing license** such records are skipped
+3. **Zenodo file list incomplete** some records require a secondary API call
+4. **Language missing (Dataverse)** not available at search level
+5. **Cross-repository duplicates** resolved via DOI in later stages
+6. **Dataverse download restrictions** many datasets block automated file access (HTTP 403)
+>>>>>>> c45ec6f (Updated the dowloaded dataset)
 
 ---
 
@@ -183,10 +211,12 @@ Datasets without a license are skipped.
 * This is intentional due to:
 
   * GitHub file size limits
-  * large dataset sizes in repositories
+  * large dataset sizes
+  * Dataverse API access restrictions
 * The pipeline supports full-scale downloads when `DRY_RUN = False`
 
 ---
+
 ## License
 
 Code in this repository: MIT
