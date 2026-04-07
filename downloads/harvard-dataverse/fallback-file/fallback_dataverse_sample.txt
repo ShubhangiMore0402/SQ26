@@ -1,0 +1,5 @@
+This is a placeholder file representing a Harvard Dataverse dataset.
+
+The pipeline attempted to download files via the Dataverse API, but many datasets are restricted or blocked for automated download (HTTP 403).
+
+A fallback sample file is included to satisfy the dataset folder requirement.

@@ -9,3 +9,945 @@ id,project_id,name,role
 8,5,"VILLA, MATTEO",AUTHOR
 9,6,"Strategic Health Communication, GEAC",AUTHOR
 10,7,"Vollrath, Coleman",AUTHOR
+11,20,"Heysel, Jan",AUTHOR
+12,21,Jiaxin Yu,AUTHOR
+13,21,Liming Fu,AUTHOR
+14,21,Peng Liang,AUTHOR
+15,21,Amjed Tahir,AUTHOR
+16,21,Mojtaba Shahin,AUTHOR
+17,22,Jiaxin Yu,AUTHOR
+18,22,Peng Liang,AUTHOR
+19,22,Yujia Fu,AUTHOR
+20,22,Amjed Tahir,AUTHOR
+21,22,Mojtaba Shahin,AUTHOR
+22,22,Chong Wang,AUTHOR
+23,22,Yangxiao Cai,AUTHOR
+24,23,Christian R. Kahlert,AUTHOR
+25,23,Michela Cipriani,AUTHOR
+26,23,Pietro Vernazza,AUTHOR
+27,24,"Mitchell-Jones, Nicola",AUTHOR
+28,24,"Farren, Jessica A.",AUTHOR
+29,24,"Tobias, Aurelio",AUTHOR
+30,24,"Bourne, Tom",AUTHOR
+31,24,"Bottomley, Cecilia",AUTHOR
+32,25,"Zhang, Wanying",AUTHOR
+33,25,"Zhu, Renbin",AUTHOR
+34,25,"Jiao, Yi",AUTHOR
+35,25,"Rhew, Robert",AUTHOR
+36,25,"Sun, Bowen",AUTHOR
+37,25,"Rinnan, Riikka",AUTHOR
+38,25,"Zhou, Zeming",AUTHOR
+39,26,"Cabral Junior, Cyro Rego",AUTHOR
+40,26,"de Albuquerque, Maria Cicera do Santos",AUTHOR
+41,26,"Victal, Vilma Janaína Rios Cabral",AUTHOR
+42,26,"de Albuquerque, Gustavo Santos",AUTHOR
+43,26,"Ferreira, Bruna Guilhermino de Oliveira",AUTHOR
+44,27,"Balvan, Jan",AUTHOR
+45,27,"Navratil, Jiri",AUTHOR
+46,28,Rossouw Theresa M,AUTHOR
+47,28,Joseph B. Sempa,AUTHOR
+48,28,Nieuwoudt Martin,AUTHOR
+49,29,"Burger, David",AUTHOR
+50,30,Matthias Neumann,AUTHOR
+51,30,Tom Philipp,AUTHOR
+52,30,Marcel Häringer,AUTHOR
+53,30,Gregor Neusser,AUTHOR
+54,30,Joachim R. Binder,AUTHOR
+55,30,Christine Kranz,AUTHOR
+56,31,"Jasper, Friedrich",AUTHOR
+57,31,"Baumann, Manuel",AUTHOR
+58,31,"Ersoy, Hüseyin",AUTHOR
+59,31,"Smith, Anna",AUTHOR
+60,31,"Büchele, Sebastian",AUTHOR
+61,31,"Bohn, Nicole",AUTHOR
+62,31,"Binder, Joachim",AUTHOR
+63,31,"Neuhaus, Dirk Holger",AUTHOR
+64,31,"Weil, Marcel",AUTHOR
+65,32,Ijaz Ul Mohsin,AUTHOR
+66,33,"Arboleda Chavez, Carlos Emilio",AUTHOR
+67,33,"Troch, Peter",AUTHOR
+68,34,"Chigama, Marlon",AUTHOR
+69,35,"Barés, Jonathan",AUTHOR
+70,35,"Regazzi, Arnaud",AUTHOR
+71,35,"Aponte, David",AUTHOR
+72,35,"Buonomo, Sylvain",AUTHOR
+73,35,"Renouf, Mathieu",AUTHOR
+74,35,"Estrada, Nicolas",AUTHOR
+75,35,"Azéma, Emilien",AUTHOR
+76,36,Nur Athirah Binti Badlihisham and Mohd Fairuz Bin Md Salleh,AUTHOR
+77,37,"Frattini, Julian",AUTHOR
+78,37,"Fucci, Davide",AUTHOR
+79,37,"Mendez, Daniel",AUTHOR
+80,37,"Spinola, Rodrigo",AUTHOR
+81,37,"Mandic, Vladimir",AUTHOR
+82,37,"Tausan, Nebojsa",AUTHOR
+83,37,"Ahmad, Muhammad Ovais",AUTHOR
+84,37,"Gonzalez-Huerta, Javier",AUTHOR
+85,38,"Anonymous, Anonymous",AUTHOR
+86,39,"qureshi, majad",AUTHOR
+87,40,"Jackson, Victoria",AUTHOR
+88,40,"Prikladnicki, Rafael",AUTHOR
+89,40,"van der Hoek, Andre",AUTHOR
+90,41,"Montgomery, Lloyd",AUTHOR
+91,41,"Lüders, Clara Marie",AUTHOR
+92,41,"Rahe, Christian",AUTHOR
+93,41,"Maalej, Walid",AUTHOR
+94,42,"Anonymous, Anymous",AUTHOR
+95,43,"Peldszus, Sven",AUTHOR
+96,43,"Rutenkolk, Jan",AUTHOR
+97,43,"Heide, Marcel",AUTHOR
+98,43,"Sollmann, Jan",AUTHOR
+99,43,"Klatt, Benjamin",AUTHOR
+100,43,"Köhne, Frank",AUTHOR
+101,43,"Berger, Thorsten",AUTHOR
+102,44,"Casimiro Urcos, Consuelo Nora",AUTHOR
+103,44,"Casimiro Urcos, Walther Hernan",AUTHOR
+104,44,"Alberca Pintado, Nancy Elizabeth",AUTHOR
+105,44,"Ostos Miraval, Reynaldo Marcial",AUTHOR
+106,44,"Carrasco Muñoz, Miguel Alfredo",AUTHOR
+107,44,"Piñas Rivera, Livia Cristina",AUTHOR
+108,159,"Strategic Health Communication, GEAC",AUTHOR
+109,161,"Vollrath, Coleman",AUTHOR
+110,47,"Herrick, Cynthia",AUTHOR
+111,48,"Herrick, Cynthia",AUTHOR
+112,49,"Herrick, Cynthia",AUTHOR
+113,50,湯志民,AUTHOR
+114,50,Chih-min Tang,AUTHOR
+115,51,湯志民,AUTHOR
+116,51,Chih-Min Tang,AUTHOR
+117,52,"Al Hatmi, Khalifa",AUTHOR
+118,53,"Olivas-Osuna, José Javier",AUTHOR
+119,53,"Rama, José",AUTHOR
+120,54,"Rijen van, Denise",AUTHOR
+121,54,"Hoor ten, Gill",AUTHOR
+122,55,"Matima, Rangarirai",AUTHOR
+123,55,"Murphy, Katherine",AUTHOR
+124,55,"Levitt, Naomi S.",AUTHOR
+125,55,"BeLue, Rhonda",AUTHOR
+126,55,"Oni, Tolu",AUTHOR
+127,56,"Kamans, Elanor Dr.",AUTHOR
+128,56,"Langeloo, Annegien",AUTHOR
+129,57,Sara Pistola Grille,AUTHOR
+130,57,Iria Da Cunha Fanego,AUTHOR
+131,57,Susana Viñuales Ferreiro,AUTHOR
+132,58,"Harrison, Krista",AUTHOR
+133,59,"Bouza Garcia, Luis",AUTHOR
+134,59,"Sánchez del Vas, Rocío",AUTHOR
+135,59,"Oleart, Alvaro",AUTHOR
+136,59,"Roch Gonzalez, Juan",AUTHOR
+137,60,"Dittmer, Kyle Michael",AUTHOR
+138,60,"Rose, Sabrina Catherine",AUTHOR
+139,60,"Khatri-Chhetri, Arun",AUTHOR
+140,60,"Stier, Melina",AUTHOR
+141,60,"Trang, Vu Hong",AUTHOR
+142,60,"Nelson, Katherine",AUTHOR
+143,61,"Dank, Meredith",AUTHOR
+144,61,"Farrell, Amy",AUTHOR
+145,61,"Zhang, Sheldon",AUTHOR
+146,62,"Dank, Meredith",AUTHOR
+147,62,"Farrell, Amy",AUTHOR
+148,62,"Zhang, Sheldon",AUTHOR
+149,63,"Oudkerk Pool, Andrea",AUTHOR
+150,64,"Oudkerk Pool, Andrea",AUTHOR
+151,65,"Oudkerk Pool, Andrea",AUTHOR
+152,66,"Wackers, Martijn",AUTHOR
+153,67,"Grewal, Sunny",AUTHOR
+154,67,"Grewal, Sunny",AUTHOR
+155,67,"Kidney, Etain",AUTHOR
+156,67,"Kidney, Etain",AUTHOR
+157,67,"Kenny, Patrick",AUTHOR
+158,68,Muzikeviciute-Oud,AUTHOR
+159,69,"McGlade-Bouchard, Cameron",AUTHOR
+160,70,"Planty, Michael",AUTHOR
+161,70,"Banks, Duren",AUTHOR
+162,71,"Planty, Michael",AUTHOR
+163,71,"Banks, Duren",AUTHOR
+164,72,"Barkhausen, David",AUTHOR
+165,72,"Bloching, Sven",AUTHOR
+166,72,"Engeler, Hannah",AUTHOR
+167,73,"Sönning, Lukas",AUTHOR
+168,74,"Sönning, Lukas",AUTHOR
+169,75,"Sönning, Lukas",AUTHOR
+170,76,"Albrecht, Jennifer",AUTHOR
+171,77,"Albrecht, Jennifer",AUTHOR
+172,78,"Arora, Prerna",AUTHOR
+173,79,"Arora, Prerna",AUTHOR
+174,80,"The, Giovanno",AUTHOR
+175,80,"Ubud, Sahnaz",AUTHOR
+176,80,"Ubud, Sahnaz",AUTHOR
+177,81,"Koerber, Amy",AUTHOR
+178,343,"Strategic Health Communication, GEAC",AUTHOR
+179,83,"Strategic Health Communication, GEAC",AUTHOR
+180,84,"Kleinhens Pinto Basto Avides, Miguel",AUTHOR
+181,85,"Behan, Justine",AUTHOR
+182,85,"Kabajaasi, Olive",AUTHOR
+183,85,"Derksen, Brooklyn",AUTHOR
+184,85,"Sendegye, George",AUTHOR
+185,85,Kuugumikiriza,AUTHOR
+186,85,"Komugisha, Clare",AUTHOR
+187,85,"Sundararajan, Radhika",AUTHOR
+188,85,"Jacob, Shevin T.",AUTHOR
+189,85,"Kenya-Mugisha, Nathan",AUTHOR
+190,85,"Wiens, Matthew O.",AUTHOR
+191,86,"Gifford, Rachel",AUTHOR
+192,86,"van de Baan, Frank",AUTHOR
+193,86,"Ruwaard, Dirk",AUTHOR
+194,86,"Westra, Daan",AUTHOR
+195,87,PSI/Central Asia,AUTHOR
+196,88,"Hasib, Mir",AUTHOR
+197,89,"Fine, Julia",AUTHOR
+198,90,"Fine, Julia",AUTHOR
+199,91,"Groothuis, Sanne",AUTHOR
+200,92,"Alamenciak, Tim",AUTHOR
+201,93,"Samuels, Julie",AUTHOR
+202,93,"Davies, Elizabeth",AUTHOR
+203,93,"Pope, Dwight",AUTHOR
+204,94,"Samuels, Julie",AUTHOR
+205,94,"Davies, Elizabeth",AUTHOR
+206,94,"Pope, Dwight",AUTHOR
+207,95,"Rogers, Charles R.",AUTHOR
+208,96,"Rogers, Charles R.",AUTHOR
+209,97,"Thorkildsen, Zoë",AUTHOR
+210,97,"Wohl, Emma",AUTHOR
+211,97,"Bryson, Bridgette",AUTHOR
+212,97,"Lafferty, Jennifer",AUTHOR
+213,97,"Dockstader, Jessica",AUTHOR
+214,98,"Thorkildsen, Zoë",AUTHOR
+215,98,"Wohl, Emma",AUTHOR
+216,98,"Bryson, Bridgette",AUTHOR
+217,98,"Lafferty, Jennifer",AUTHOR
+218,98,"Dockstader, Jessica",AUTHOR
+219,99,"Obadike, Ilona Nkemjika",AUTHOR
+220,100,Sara Pistola Grille,AUTHOR
+221,100,Iria Da Cunha Fanego,AUTHOR
+222,100,Susana Viñuales Ferreiro,AUTHOR
+223,101,"Davidson Abella, Anna",AUTHOR
+224,101,"Vargo, Amy C.",AUTHOR
+225,102,"Davidson Abella, Anna",AUTHOR
+226,102,"Vargo, Amy C.",AUTHOR
+227,103,"Garibay-Toussaint, Isabel",AUTHOR
+228,103,"Garibay-Toussaint, Isabel",AUTHOR
+229,103,"Narchi, Nemer E.",AUTHOR
+230,104,"Wagenaar, Welmoed",AUTHOR
+231,105,"Virbel-Fleischman, Clara",AUTHOR
+232,106,"Schell, Jane",AUTHOR
+233,106,"Ernecoff, Natalie",AUTHOR
+234,107,"Reb, Anne",AUTHOR
+235,108,"Lee, Sunghoon Ivan",AUTHOR
+236,108,"Choe, Eun Kyoung",AUTHOR
+237,108,"Jung, Hee-Tae",AUTHOR
+238,109,"Mueller, Jennifer",AUTHOR
+239,109,"Kirstein, Marielle",AUTHOR
+240,109,"VandeVusse, Alicia",AUTHOR
+241,109,"Lindberg, Laura",AUTHOR
+242,110,"Chea, Stevenson",AUTHOR
+243,111,"Gropper, Hannes",AUTHOR
+244,111,Jannika M. John,AUTHOR
+245,111,Ansgar Thiel,AUTHOR
+246,112,"Baum, Eleonore",AUTHOR
+247,112,"Abdi, Sied",AUTHOR
+248,112,"Arab Abdilahi, Roda",AUTHOR
+249,113,W. Van Rossem,AUTHOR
+250,114,E.A.G. Hietbrink,AUTHOR
+251,115,"Eneche, Patrick Samson Udama",AUTHOR
+252,116,D.A. Forster,AUTHOR
+253,116,C.A.M. Hermans,AUTHOR
+254,117,"Fikriandi, Fauzan",AUTHOR
+255,117,"Ubud, Sahnaz",AUTHOR
+256,117,"Ubud, Sahnaz",AUTHOR
+257,118,"West, Simon",AUTHOR
+258,118,"Beilin, Ruth",AUTHOR
+259,118,"Wagenaar, Hendrik",AUTHOR
+260,119,"Koop-Spoor, Ellen",AUTHOR
+261,119,"Janssen, Sandra",AUTHOR
+262,119,"Vloet, Kara",AUTHOR
+263,119,"Siesling, Dick",AUTHOR
+264,119,"Melenhorst, Jacintha",AUTHOR
+265,120,"Lachs, Mark",AUTHOR
+266,120,"Burnes, David",AUTHOR
+267,121,"Lachs, Mark",AUTHOR
+268,121,"Burnes, David",AUTHOR
+269,122,"Lachs, Mark",AUTHOR
+270,122,"Burnes, David",AUTHOR
+271,123,"Espinoza, Camila",AUTHOR
+272,123,"Canessa, Florencia",AUTHOR
+273,123,"van der Veek, Shelley",AUTHOR
+274,123,"Alink, Lenneke",AUTHOR
+275,123,"van der Voort, Anja",AUTHOR
+276,124,"Roark, Jennifer",AUTHOR
+277,124,"Elliott, Debi",AUTHOR
+278,124,"Bernard, Kimberly",AUTHOR
+279,125,"Roark, Jennifer",AUTHOR
+280,125,"Elliott, Debi",AUTHOR
+281,125,"Bernard, Kimberly",AUTHOR
+282,126,"Lévesque, Gabriel",AUTHOR
+283,127,A. de Ruiter,AUTHOR
+284,128,Kaukab Abid Azhar,AUTHOR
+285,128,Nayab Iqbal,AUTHOR
+286,129,"Stohr, Mary",AUTHOR
+287,129,"Willits, Dale",AUTHOR
+288,129,"Makin, David",AUTHOR
+289,129,"Hemmens, Craig",AUTHOR
+290,129,"Lovrich, Nicholas",AUTHOR
+291,129,"Stanton, Duane",AUTHOR
+292,129,"Meize, Mikala",AUTHOR
+293,130,"Stohr, Mary",AUTHOR
+294,130,"Willits, Dale",AUTHOR
+295,130,"Makin, David",AUTHOR
+296,130,"Hemmens, Craig",AUTHOR
+297,130,"Lovrich, Nicholas",AUTHOR
+298,130,"Stanton, Duane",AUTHOR
+299,130,"Meize, Mikala",AUTHOR
+300,131,Masoud Dauda,AUTHOR
+301,131,Swabaha A. Yusuph,AUTHOR
+302,131,Harouni Yasini,AUTHOR
+303,131,Issa Mmbaga,AUTHOR
+304,131,Perpetua Mwambinngu,AUTHOR
+305,131,Hansol Park,AUTHOR
+306,131,Gyeongbae Seo,AUTHOR
+307,131,Kyoung Kyun Oh,AUTHOR
+308,132,"Ataide Pinheiro, Weverton",AUTHOR
+309,133,"Burke, Matthew",AUTHOR
+310,134,"Griffin, Tricia",AUTHOR
+311,135,"West, Lori",AUTHOR
+312,135,"Nicholas, David",AUTHOR
+313,135,"Dodd, Bernadette",AUTHOR
+314,135,"Gilmour, Susan",AUTHOR
+315,135,"Urschel, Simon",AUTHOR
+316,135,"Yap, Jason",AUTHOR
+317,135,"McClure, Michelle",AUTHOR
+318,135,"Roberts, Cheri",AUTHOR
+319,136,"Wright, Virginia",AUTHOR
+320,136,"Wiart, Lesley",AUTHOR
+321,136,"Rosychuk, Rhonda",AUTHOR
+322,137,"Sahakian, Tina",AUTHOR
+323,137,"Daouk-Öyry, Lina",AUTHOR
+324,137,"Karam, Charlotte M.",AUTHOR
+325,137,"Kooij, Dorien T.A.M.",AUTHOR
+326,137,"Kroon, Brigitte",AUTHOR
+327,137,"van de Vijver, Fons",AUTHOR
+328,138,"Izumi, Seiko",AUTHOR
+329,139,"Grootel, van, Juul",AUTHOR
+330,140,"Kertzer, David",AUTHOR
+331,141,"Kertzer, David",AUTHOR
+332,142,A.M.P. Huis,AUTHOR
+333,142,B. Wendt,AUTHOR
+334,142,M. Hulscher,AUTHOR
+335,142,G.J. Huisman-de Waal,AUTHOR
+336,142,J.L.A. Hautvast,AUTHOR
+337,143,"Malki, Athra",AUTHOR
+338,143,"Verkerke, Gijsbertus J.",AUTHOR
+339,143,"Dekker, Rienk",AUTHOR
+340,143,"Hijmans, Juha M.",AUTHOR
+341,144,"Gunn, Christine M.",AUTHOR
+342,145,"Gunn, Christine M.",AUTHOR
+343,146,Sara Pistola Grille,AUTHOR
+344,146,Iria Da Cunha Fanego,AUTHOR
+345,146,Susana Viñuales Ferreiro,AUTHOR
+346,147,J. Oudenampsen,AUTHOR
+347,147,M. van de Pol,AUTHOR
+348,147,N.M.A. Blijlevens,AUTHOR
+349,147,E. Das,AUTHOR
+350,148,"Elias, Anwen",AUTHOR
+351,149,"Meissner, Henrique",AUTHOR
+352,149,"Harris, Robert",AUTHOR
+353,150,"Rajaratnam, Surendran",AUTHOR
+354,151,"Sundstrom, Lisa",AUTHOR
+355,151,"Johnson, Janet Elise",AUTHOR
+356,151,"Sperling, Valerie",AUTHOR
+357,151,"Novitskaya, Alexandra",AUTHOR
+358,152,"Anger, Michael",AUTHOR
+359,152,"Wendelborn, Christian",AUTHOR
+360,152,"Schickhardt, Christoph",AUTHOR
+361,153,"Koerber, Amy",AUTHOR
+362,153,"Al-Shawaf, Tameem",AUTHOR
+363,154,"Koerber, Amy",AUTHOR
+364,155,"Maina, Teresia Wamuyu",AUTHOR
+365,155,"Williams, Chelsea",AUTHOR
+366,155,"Jaenisch, Thomas",AUTHOR
+367,155,"Bärnighausen, Till",AUTHOR
+368,155,"Berner-Rodoreda, Astrid",AUTHOR
+369,155,"Bärnighausen, Kate",AUTHOR
+370,156,"O'Neill, Maureen",AUTHOR
+371,157,"Sánchez, Estefanía",AUTHOR
+372,158,"Ververs e/v Gerritsen, Maritza",AUTHOR
+373,159,"Silveira Ramalho, Thiago",AUTHOR
+374,159,"Vasconcellos, Liliana",AUTHOR
+375,159,"Vasconcellos, Liliana",AUTHOR
+376,160,"Ament, Stephanie",AUTHOR
+377,161,"Semrau, Maya",AUTHOR
+378,161,"Davey, Gail",AUTHOR
+379,161,"Fekadu, Abebaw",AUTHOR
+380,161,"Tora, Abebayehu",AUTHOR
+381,161,"Kinfe, Mersha",AUTHOR
+382,161,"Ali, Oumer",AUTHOR
+383,161,"Mengiste, Asrat",AUTHOR
+384,161,"Ahimed, Abdulkadir",AUTHOR
+385,162,"van der Weijden, T.",AUTHOR
+386,163,"Luigjes, Christiaan",AUTHOR
+387,164,"Mannheimer, Sara",AUTHOR
+388,165,"Morss, Rebecca",AUTHOR
+389,165,"Vickery, Jamie",AUTHOR
+390,165,"Lazrus, Heather",AUTHOR
+391,165,"Bostrom, Ann",AUTHOR
+392,165,"Demuth, Julie",AUTHOR
+393,166,"Akbik, Adina",AUTHOR
+394,167,"Datta, Upamanyu",AUTHOR
+395,167,"Rao, Vijayendra",AUTHOR
+396,168,C.J. Davis,AUTHOR
+397,169,Katherine Wisener,AUTHOR
+398,170,Katherine Wisener,AUTHOR
+399,171,Katherine Wisener,AUTHOR
+400,172,"Tobin, Karin E.",AUTHOR
+401,173,"Tobin, Karin E.",AUTHOR
+402,174,"Esbensen, Finn-Aage",AUTHOR
+403,175,"Esbensen, Finn-Aage",AUTHOR
+404,814,"Herrick, Cynthia",AUTHOR
+405,818,"Herrick, Cynthia",AUTHOR
+406,822,"Herrick, Cynthia",AUTHOR
+407,179,"Rod, Alisa Beth",AUTHOR
+408,3794,"Al Hatmi, Khalifa",AUTHOR
+409,181,"West, Jane",AUTHOR
+410,182,"Chukwuma, Adanna",AUTHOR
+411,3808,"Matima, Rangarirai",AUTHOR
+412,3808,"Murphy, Katherine",AUTHOR
+413,3808,"Levitt, Naomi S.",AUTHOR
+414,3808,"BeLue, Rhonda",AUTHOR
+415,3808,"Oni, Tolu",AUTHOR
+416,184,"TUNC, ZEYNEP",AUTHOR
+417,184,"KORKMAZ (TUNÇ), ZEYNEP",AUTHOR
+418,185,"Kernic, Mary A.",AUTHOR
+419,186,"Kernic, Mary A.",AUTHOR
+420,187,"van Linschoten, Reinier",AUTHOR
+421,187,"Bijl, Hannah",AUTHOR
+422,187,"Zwinkels, Dionne",AUTHOR
+423,188,"Gouin, Clayton",AUTHOR
+424,189,"Campbell, Rebecca",AUTHOR
+425,189,"Greeson, Megan",AUTHOR
+426,189,"Bybee, Deborah",AUTHOR
+427,189,"Kennedy, Angie",AUTHOR
+428,190,"Campbell, Rebecca",AUTHOR
+429,190,"Greeson, Megan",AUTHOR
+430,190,"Bybee, Deborah",AUTHOR
+431,190,"Kennedy, Angie",AUTHOR
+432,431,"Harrison, Krista",AUTHOR
+433,192,"Weist, Mark D.",AUTHOR
+434,192,"Pollitt-Hill, Jennifer",AUTHOR
+435,192,"Kinney, Linda",AUTHOR
+436,192,"Bryant, Yaphet",AUTHOR
+437,192,"Anthony, Laura",AUTHOR
+438,192,"Wilkerson, Jennifer",AUTHOR
+439,193,"Weist, Mark D.",AUTHOR
+440,193,"Pollitt-Hill, Jennifer",AUTHOR
+441,193,"Kinney, Linda",AUTHOR
+442,193,"Bryant, Yaphet",AUTHOR
+443,193,"Anthony, Laura",AUTHOR
+444,193,"Wilkerson, Jennifer",AUTHOR
+445,194,"Errett, Nicole",AUTHOR
+446,194,"Hartwell, Catherine",AUTHOR
+447,194,"Randazza, Juliette",AUTHOR
+448,194,"Bratman, Gregory",AUTHOR
+449,194,"Eisenman, David",AUTHOR
+450,194,"Ellis, Blake",AUTHOR
+451,194,"Goodsell, Eli",AUTHOR
+452,194,"Levy, Chaja",AUTHOR
+453,889,"Oudkerk Pool, Andrea",AUTHOR
+454,196,"Zhang, Julia",AUTHOR
+455,197,"Milman, Anita",AUTHOR
+456,198,"Copes, Heith",AUTHOR
+457,198,"Vieraitis, Lynne",AUTHOR
+458,199,"Copes, Heith",AUTHOR
+459,199,"Vieraitis, Lynne",AUTHOR
+460,200,"Herrera, Veronica M.",AUTHOR
+461,201,"Herrera, Veronica M.",AUTHOR
+462,202,"Wensel, Sophie",AUTHOR
+463,4005,"Albrecht, Jennifer",AUTHOR
+464,953,"Albrecht, Jennifer",AUTHOR
+465,960,"Arora, Prerna",AUTHOR
+466,966,"Arora, Prerna",AUTHOR
+467,207,"Bartels, Stephen",AUTHOR
+468,207,"Skotko, Brian",AUTHOR
+469,208,"Bartels, Stephen",AUTHOR
+470,208,"Skotko, Brian",AUTHOR
+471,209,"Hale, Thomas",AUTHOR
+472,210,"Trujillo-Falcón, Joseph",AUTHOR
+473,210,"Reedy, Justin",AUTHOR
+474,210,"Gaviria Pabón, América",AUTHOR
+475,211,"Kaphingst, Kimberly A.",AUTHOR
+476,212,"Kaphingst, Kimberly A.",AUTHOR
+477,213,"Dunning, Thad",AUTHOR
+478,213,"Camp, Edwin",AUTHOR
+479,4323,"Kleinhens Pinto Basto Avides, Miguel",AUTHOR
+480,215,"Farmer, Helen S.",AUTHOR
+481,4427,"Behan, Justine",AUTHOR
+482,4427,"Kabajaasi, Olive",AUTHOR
+483,4427,"Derksen, Brooklyn",AUTHOR
+484,4427,"Sendegye, George",AUTHOR
+485,4427,Kuugumikiriza,AUTHOR
+486,4427,"Komugisha, Clare",AUTHOR
+487,4427,"Sundararajan, Radhika",AUTHOR
+488,4427,"Jacob, Shevin T.",AUTHOR
+489,4427,"Kenya-Mugisha, Nathan",AUTHOR
+490,4427,"Wiens, Matthew O.",AUTHOR
+491,217,"Bliersbach, Hannah",AUTHOR
+492,218,"Shymko, Vitalii",AUTHOR
+493,219,"Naughton, Meredith R.",AUTHOR
+494,220,"Naughton, Meredith R.",AUTHOR
+495,221,"Naughton, Meredith R.",AUTHOR
+496,222,"Naughton, Meredith R.",AUTHOR
+497,223,"Naughton, Meredith R.",AUTHOR
+498,224,"Naughton, Meredith R.",AUTHOR
+499,225,"Naughton, Meredith R.",AUTHOR
+500,226,"Naughton, Meredith R.",AUTHOR
+501,227,"Naughton, Meredith R.",AUTHOR
+502,1102,"Thorkildsen, Zoë",AUTHOR
+503,1102,"Wohl, Emma",AUTHOR
+504,1102,"Bryson, Bridgette",AUTHOR
+505,1102,"Lafferty, Jennifer",AUTHOR
+506,1102,"Dockstader, Jessica",AUTHOR
+507,1108,"Thorkildsen, Zoë",AUTHOR
+508,1108,"Wohl, Emma",AUTHOR
+509,1108,"Bryson, Bridgette",AUTHOR
+510,1108,"Lafferty, Jennifer",AUTHOR
+511,1108,"Dockstader, Jessica",AUTHOR
+512,230,Emily A. Norman,AUTHOR
+513,230,Jiaying Liu,AUTHOR
+514,230,Elliott Hauser,AUTHOR
+515,230,Yifan Xu,AUTHOR
+516,230,Keri Stephens,AUTHOR
+517,231,"Eisenman, David P.",AUTHOR
+518,232,"Eisenman, David P.",AUTHOR
+519,233,"PRADEILLES, Rebecca",AUTHOR
+520,233,"KEARNEY, Colette",AUTHOR
+521,233,"LAAR, Amos",AUTHOR
+522,233,"HOLDSWORTH, Michelle",AUTHOR
+523,233,"ZOTOR, Francis",AUTHOR
+524,233,"TANDOH, Akua",AUTHOR
+525,233,"KLOMEGAH, Senam",AUTHOR
+526,233,"COLEMAN, Nat",AUTHOR
+527,233,"BASH, Kristin",AUTHOR
+528,233,"GREEN, Mark",AUTHOR
+529,233,"GRIFFITHS, Paula",AUTHOR
+530,234,"Fernández González, Noelia",AUTHOR
+531,235,"Duran, Nicholas",AUTHOR
+532,235,"Paxton, Alexandra",AUTHOR
+533,235,"Fusaroli, Riccardo",AUTHOR
+534,236,"Duran, Nicholas",AUTHOR
+535,236,"Paxton, Alexandra",AUTHOR
+536,236,"Fusaroli, Riccardo",AUTHOR
+537,237,"Sullivan, Tami P.",AUTHOR
+538,238,"Sullivan, Tami P.",AUTHOR
+539,1194,"Davidson Abella, Anna",AUTHOR
+540,1194,"Vargo, Amy C.",AUTHOR
+541,1199,"Davidson Abella, Anna",AUTHOR
+542,1199,"Vargo, Amy C.",AUTHOR
+543,241,"Saunders, Daniel",AUTHOR
+544,241,"Faller, Kathleen",AUTHOR
+545,241,"Tolman, Richard M.",AUTHOR
+546,242,"Saunders, Daniel",AUTHOR
+547,242,"Faller, Kathleen",AUTHOR
+548,242,"Tolman, Richard M.",AUTHOR
+549,243,"Girard, Amy",AUTHOR
+550,244,"Girard, Amy",AUTHOR
+551,245,"Zhou, Chengmin",AUTHOR
+552,245,"Gu, Wenhui",AUTHOR
+553,246,"Hickner, Andy",AUTHOR
+554,247,"Valand, Ida Ulrikke",AUTHOR
+555,248,"Zuber, Katie",AUTHOR
+556,248,"Strach, Patricia",AUTHOR
+557,248,"Pérez-Chiqués, Elizabeth",AUTHOR
+558,249,"Herrera, Veronica",AUTHOR
+559,250,"Awasthi, Kiran",AUTHOR
+560,251,"Boynito, Wanzahun Godana",AUTHOR
+561,252,"Borghini, Stefania",AUTHOR
+562,4949,"Schell, Jane",AUTHOR
+563,4949,"Ernecoff, Natalie",AUTHOR
+564,4998,"Reb, Anne",AUTHOR
+565,255,"Ramírez Stege, Alyssa M.",AUTHOR
+566,255,"Yarris, Kristin Elizabeth",AUTHOR
+567,256,"Gans-Morse, Jordan",AUTHOR
+568,5050,"Lee, Sunghoon Ivan",AUTHOR
+569,5050,"Choe, Eun Kyoung",AUTHOR
+570,5050,"Jung, Hee-Tae",AUTHOR
+571,258,"Chang, Pi-Hua",AUTHOR
+572,259,"Holland, Alisha",AUTHOR
+573,260,"Masullo, Juan",AUTHOR
+574,5161,"Mueller, Jennifer",AUTHOR
+575,5161,"Kirstein, Marielle",AUTHOR
+576,5161,"VandeVusse, Alicia",AUTHOR
+577,5161,"Lindberg, Laura",AUTHOR
+578,262,"Holland, Melanie",AUTHOR
+579,262,"Demaree, Kat",AUTHOR
+580,262,"Thomas, Evan",AUTHOR
+581,263,"Myrick, Rachel",AUTHOR
+582,263,"Weinstein, Jeremy",AUTHOR
+583,264,"McGinley, John",AUTHOR
+584,264,"Ksor, Risuin",AUTHOR
+585,264,"Bush, Catherine",AUTHOR
+586,265,"Yeh, Emily T.",AUTHOR
+587,266,"Aguessivognon, Togla   Aymard",AUTHOR
+588,267,"Arrey, Agnes Ebotabe",AUTHOR
+589,268,"Boyer, Eric",AUTHOR
+590,5310,"Chea, Stevenson",AUTHOR
+591,270,"Arney, Jennifer",AUTHOR
+592,270,"Bertone, Andrea M.",AUTHOR
+593,271,"Aguessivognon, Togla Aymard",AUTHOR
+594,272,"Mayka, Lindsay",AUTHOR
+595,273,"Smith, Jennifer",AUTHOR
+596,273,Holmes-Elliott,AUTHOR
+597,5398,"Gropper, Hannes",AUTHOR
+598,5398,Jannika M. John,AUTHOR
+599,5398,Ansgar Thiel,AUTHOR
+600,275,"Ellett, Rachel",AUTHOR
+601,276,"Rich, Jessica",AUTHOR
+602,5506,"Baum, Eleonore",AUTHOR
+603,5506,"Abdi, Sied",AUTHOR
+604,5506,"Arab Abdilahi, Roda",AUTHOR
+605,278,"Webb, Katie R.",AUTHOR
+606,278,University of Washington,AUTHOR
+607,278,"Ismach, Alan",AUTHOR
+608,278,University of Washington,AUTHOR
+609,278,"Spiker, Marie L.",AUTHOR
+610,278,University of Washington,AUTHOR
+611,278,"Rabotyagov, Sergey",AUTHOR
+612,278,University of Washington,AUTHOR
+613,278,"Collier, Sarah M.",AUTHOR
+614,278,University of Washington,AUTHOR
+615,279,"Webb, Katie R.",AUTHOR
+616,279,University of Washington,AUTHOR
+617,279,"Ismach, Alan",AUTHOR
+618,279,University of Washington,AUTHOR
+619,279,"Spiker, Marie L.",AUTHOR
+620,279,University of Washington,AUTHOR
+621,279,"Rabotyagov, Sergey",AUTHOR
+622,279,University of Washington,AUTHOR
+623,279,"Collier, Sarah M.",AUTHOR
+624,279,University of Washington,AUTHOR
+625,280,M.W.L.J. Olthof-Nefkens,AUTHOR
+626,280,E.W.C. Derksen,AUTHOR
+627,280,B.J.M. de Swart,AUTHOR
+628,280,M.W.G. Nijhuis-van der Sanden,AUTHOR
+629,280,J.G. Kalf,AUTHOR
+630,5540,W. Van Rossem,AUTHOR
+631,282,"Qin, Wen",AUTHOR
+632,282,"Li, Weilong",AUTHOR
+633,282,"Peng, Yanli",AUTHOR
+634,282,"Su, Juan",AUTHOR
+635,283,"Qin, Wen",AUTHOR
+636,283,"Li, Weilong",AUTHOR
+637,283,"Peng, Yanli",AUTHOR
+638,283,"Su, Juan",AUTHOR
+639,638,"West, Simon",AUTHOR
+640,638,"Beilin, Ruth",AUTHOR
+641,638,"Wagenaar, Hendrik",AUTHOR
+642,285,E. van Reenen,AUTHOR
+643,286,"Cuzner, Alicia",AUTHOR
+644,287,"Ware, Norma C.",AUTHOR
+645,287,"Wyatt, Monique A.",AUTHOR
+646,287,"Barnabas, Ruanne",AUTHOR
+647,288,"Lattimore, Pamela K.",AUTHOR
+648,289,"Lattimore, Pamela K.",AUTHOR
+649,290,"Gonzalez, Gabriella",AUTHOR
+650,291,"Gonzalez, Gabriella",AUTHOR
+651,1507,"Lachs, Mark",AUTHOR
+652,1507,"Burnes, David",AUTHOR
+653,1522,"Lachs, Mark",AUTHOR
+654,1522,"Burnes, David",AUTHOR
+655,1537,"Lachs, Mark",AUTHOR
+656,1537,"Burnes, David",AUTHOR
+657,295,"Claborn, Kasey",AUTHOR
+658,296,"Claborn, Kasey",AUTHOR
+659,297,"Tilberry, Stephanie ",AUTHOR
+660,298,"Cui, Jie",AUTHOR
+661,5585,"Tobin, Karin E.",AUTHOR
+662,1576,"Tobin, Karin E.",AUTHOR
+663,301,"Fabbri, Caitlin",AUTHOR
+664,302,"Kilic, Cagla",AUTHOR
+665,303,"Williams, Kira",AUTHOR
+666,303,"Mountz, Alison",AUTHOR
+667,304,"Latif, Muhammad Wasim",AUTHOR
+668,305,"Latif, Muhammad Wasim",AUTHOR
+669,306,"Rezaii, Neguine",AUTHOR
+670,307,沈介文,AUTHOR
+671,307,Chieh-wen Sheng,AUTHOR
+672,308,李奉儒,AUTHOR
+673,308,Feng-jihu Lee,AUTHOR
+674,309,呂佳陵,AUTHOR
+675,309,Chia-ling Lu,AUTHOR
+676,310,"Hernandez Aros, Ludivia",AUTHOR
+677,310,"Juliao-Rossi, Jorge",AUTHOR
+678,310,"Juliao-Rossi, Jorge",AUTHOR
+679,310,"Gutierrez Portela, Fernando",AUTHOR
+680,310,"Gutierrez Portela, Fernando",AUTHOR
+681,311,"Wu, Haorui",AUTHOR
+682,311,"Ru, Siyu",AUTHOR
+683,311,"Breen, Kyle",AUTHOR
+684,311,"Parzniewski, Szymon",AUTHOR
+685,1630,"Matima, Rangarirai",AUTHOR
+686,1630,"Murphy, Katherine",AUTHOR
+687,1630,"Levitt, Naomi S.",AUTHOR
+688,1630,"BeLue, Rhonda",AUTHOR
+689,1630,"Oni, Tolu",AUTHOR
+690,313,"Shaheen, Natalie",AUTHOR
+691,313,"Syifa, Mutiara",AUTHOR
+692,314,"Shaheen, Natalie",AUTHOR
+693,314,"Syifa, Mutiara",AUTHOR
+694,315,"Chavelas , Julio César",AUTHOR
+695,316,"Diamond-Welch, Bridget",AUTHOR
+696,316,"Kosloski, Anna E.",AUTHOR
+697,316,"O'Leary, Carmen",AUTHOR
+698,317,"Diamond-Welch, Bridget",AUTHOR
+699,317,"Kosloski, Anna E.",AUTHOR
+700,317,"O'Leary, Carmen",AUTHOR
+701,318,"Dumitrica, Delia",AUTHOR
+702,318,"Schwinges, A.",AUTHOR
+703,319,"Tausch, A., Universitaet Innsbruck * Innsbruck, Institut fuer Politikwissenshaft (primary investigator)",AUTHOR
+704,320,"Gu, Bonjoo",AUTHOR
+705,320,"Kowitt, Sarah",AUTHOR
+706,320,"Jang, Youjin",AUTHOR
+707,320,"Tao, Ran",AUTHOR
+708,320,"Li, Kexin",AUTHOR
+709,320,"Ritchie, Caroline",AUTHOR
+710,320,"Triana, Victoria",AUTHOR
+711,320,"Kim, Minji",AUTHOR
+712,320,"Gottfredson O’Shea, Nisha",AUTHOR
+713,320,"Noar, Seth",AUTHOR
+714,321,"Seifer, Ronald",AUTHOR
+715,322,"Mueller, Kate Hevner",AUTHOR
+716,323,"Mueller, Kate Hevner",AUTHOR
+717,324,張其祿,AUTHOR
+718,324,Chyi-lu Jang,AUTHOR
+719,1720,"Dank, Meredith",AUTHOR
+720,1720,"Farrell, Amy",AUTHOR
+721,1720,"Zhang, Sheldon",AUTHOR
+722,1725,"Dank, Meredith",AUTHOR
+723,1725,"Farrell, Amy",AUTHOR
+724,1725,"Zhang, Sheldon",AUTHOR
+725,327,"Mills, Linda",AUTHOR
+726,327,"Barocas, Briana",AUTHOR
+727,328,"Mills, Linda",AUTHOR
+728,328,"Barocas, Briana",AUTHOR
+729,329,"Rubin, Paul G.",AUTHOR
+730,329,"Ayscue, Jennifer B.",AUTHOR
+731,329,"Uzzell, Elizabeth M.",AUTHOR
+732,330,"Rubin, Paul G.",AUTHOR
+733,330,"Ayscue, Jennifer B.",AUTHOR
+734,330,"Uzzell, Elizabeth M.",AUTHOR
+735,331,"Rubin, Paul G.",AUTHOR
+736,331,"Ayscue, Jennifer B.",AUTHOR
+737,331,"Uzzell, Elizabeth M.",AUTHOR
+738,332,"Tromble, Rebekah K.",AUTHOR
+739,332,"Wouters, Miriam",AUTHOR
+740,333,"Kiss, Simon",AUTHOR
+741,334,"Zhul, Olena",AUTHOR
+742,335,"Windsor, L",AUTHOR
+743,5925,"Wensel, Sophie",AUTHOR
+744,337,"Rubaiat, Sajratul Yakin",AUTHOR
+745,337,"Haq, Sheherjan",AUTHOR
+746,5929,"Albrecht, Jennifer",AUTHOR
+747,1769,"Albrecht, Jennifer",AUTHOR
+748,1776,"Arora, Prerna",AUTHOR
+749,1782,"Arora, Prerna",AUTHOR
+750,342,"Seifer, Ronald",AUTHOR
+751,343,"Webb, Kathryn",AUTHOR
+752,344,Katharina Brandl,AUTHOR
+753,344,Soniya V. Rabadia,AUTHOR
+754,344,Alexander Chang,AUTHOR
+755,344,Jess Mandel,AUTHOR
+756,345,"Melamut, Hailey",AUTHOR
+757,346,"Kim, Kihong",AUTHOR
+758,346,"Chung, Yeonok",AUTHOR
+759,347,"Huh, Sun",AUTHOR
+760,348,"Wu, Yi",AUTHOR
+761,348,"Mulkens, Sandra",AUTHOR
+762,348,"Alleva, Jessica M.",AUTHOR
+763,349,"Universiteit van Amsterdam * Amsterdam, Instituut voor wetenschap der politiek, IWP, Doktoraal onderwijsgroep politiek in grote groepen, DOGRO (primary investigator)",AUTHOR
+764,350,"North, Robert",AUTHOR
+765,350,"Lagerstrom, Richard",AUTHOR
+766,350,"Mitchell, William",AUTHOR
+767,351,"North, Robert",AUTHOR
+768,351,"Lagerstrom, Richard",AUTHOR
+769,351,"Mitchell, William",AUTHOR
+770,352,"Donnelly, Hannah",AUTHOR
+771,353,"Kahn, Michael G.",AUTHOR
+772,354,"Kahn, Michael G.",AUTHOR
+773,355,"Jaraczewski, Taylor",AUTHOR
+774,356,MW Deel,AUTHOR
+775,357,MW Deel,AUTHOR
+776,358,"Kurumbur Varadharajan, Vaidhyanatha Balaji",AUTHOR
+777,359,"Seifer, Ronald",AUTHOR
+778,360,"Klüver, Heike",AUTHOR
+779,360,"Klüver, Heike",AUTHOR
+780,360,"Krauss, Svenja",AUTHOR
+781,360,"Bäck, Hanna",AUTHOR
+782,361,"Ross, Kharah",AUTHOR
+783,361,"Trask, Cheryl M.",AUTHOR
+784,361,"Lowe, C. T.",AUTHOR
+785,361,"Keown-Gerrard, J.",AUTHOR
+786,361,"Gilbert, T. H.",AUTHOR
+787,361,"Ng, C. F.",AUTHOR
+788,362,GUANGJIE Zhang,AUTHOR
+789,6470,"Kleinhens Pinto Basto Avides, Miguel",AUTHOR
+790,364,"Wild, Cameron",AUTHOR
+791,365,"Hahn-Goldberg, Shoshana",AUTHOR
+792,6481,"Behan, Justine",AUTHOR
+793,6481,"Kabajaasi, Olive",AUTHOR
+794,6481,"Derksen, Brooklyn",AUTHOR
+795,6481,"Sendegye, George",AUTHOR
+796,6481,Kuugumikiriza,AUTHOR
+797,6481,"Komugisha, Clare",AUTHOR
+798,6481,"Sundararajan, Radhika",AUTHOR
+799,6481,"Jacob, Shevin T.",AUTHOR
+800,6481,"Kenya-Mugisha, Nathan",AUTHOR
+801,6481,"Wiens, Matthew O.",AUTHOR
+802,367,"Carbajal, Itza",AUTHOR
+803,368,"Häge, Frank M.",AUTHOR
+804,6496,"Fine, Julia",AUTHOR
+805,370,"Jerzak, Connor",AUTHOR
+806,370,"King, Gary",AUTHOR
+807,370,"Strezhnev, Anton",AUTHOR
+808,371,"Malagon, Talia",AUTHOR
+809,372,"Wirz, Christopher",AUTHOR
+810,372,"Demuth, Julie",AUTHOR
+811,372,"Werner, Kelly",AUTHOR
+812,372,"Chasteen, Manda",AUTHOR
+813,373,"Flus, Meagan",AUTHOR
+814,373,"Ferguson, Sharon",AUTHOR
+815,373,"Olechowski, Alison",AUTHOR
+816,374,"Seifer, Ronald",AUTHOR
+817,375,B. Bustamante-Helfrich,AUTHOR
+818,376,"Nizamudeen, Khadijah",AUTHOR
+819,376,"RR, Dr. Soumya",AUTHOR
+820,376,"RR, Dr. Soumya",AUTHOR
+821,377,"Parent, Nicolas",AUTHOR
+822,378,Ryan Gupta,AUTHOR
+823,378,Hyonyoung Shin,AUTHOR
+824,378,Emily Norman,AUTHOR
+825,378,Zhiyun Deng,AUTHOR
+826,378,Maria Esteva,AUTHOR
+827,378,Nanshu Lu,AUTHOR
+828,378,Keri K Stephens,AUTHOR
+829,378,Luis Sentis,AUTHOR
+830,6860,Emily A. Norman,AUTHOR
+831,6860,Jiaying Liu,AUTHOR
+832,6860,Elliott Hauser,AUTHOR
+833,6860,Yifan Xu,AUTHOR
+834,6860,Keri Stephens,AUTHOR
+835,380,"Cordner, Gary W.",AUTHOR
+836,380,"Williams, Gerald L.",AUTHOR
+837,381,"Cordner, Gary W.",AUTHOR
+838,381,"Williams, Gerald L.",AUTHOR
+839,1935,"Eisenman, David P.",AUTHOR
+840,1941,"Eisenman, David P.",AUTHOR
+841,384,"Uebelhor, Emma",AUTHOR
+842,384,"Hintz, Olivia",AUTHOR
+843,384,"Mills, Sarah",AUTHOR
+844,385,"Uebelhor, Emma",AUTHOR
+845,385,"Hintz, Olivia",AUTHOR
+846,385,"Mills, Sarah",AUTHOR
+847,386,"Uebelhor, Emma",AUTHOR
+848,386,"Hintz, Olivia",AUTHOR
+849,386,"Mills, Sarah",AUTHOR
+850,387,"Melanie, Hanna",AUTHOR
+851,387,"Melanie, Hanna Resti",AUTHOR
+852,387,"Purnomo, Agung",AUTHOR
+853,387,"Purnomo, Agung",AUTHOR
+854,388,"MENG, WEI",AUTHOR
+855,389,"Goldenberg, Edie N.",AUTHOR
+856,389,"Traugott, Michael W.",AUTHOR
+857,390,"Goldenberg, Edie N.",AUTHOR
+858,390,"Traugott, Michael W.",AUTHOR
+859,391,"Druckman, James",AUTHOR
+860,391,"Parkin, Michael",AUTHOR
+861,391,"Kifer, Martin",AUTHOR
+862,392,"Druckman, James",AUTHOR
+863,392,"Parkin, Michael",AUTHOR
+864,392,"Kifer, Martin",AUTHOR
+865,393,"Evrensel, Ayse",AUTHOR
+866,394,"Cui, Jie",AUTHOR
+867,395,"Bibee, Abigail",AUTHOR
+868,395,"Gallagher, Erin",AUTHOR
+869,395,"Isaak, David",AUTHOR
+870,396,"Jo, Nobuo",AUTHOR
+871,396,"Sasaki, Nobuo",AUTHOR
+872,396,"Yamakage, Susumu",AUTHOR
+873,396,"Yoshii, Hiroaki",AUTHOR
+874,397,"Jo, Nobuo",AUTHOR
+875,397,"Sasaki, Nobuo",AUTHOR
+876,397,"Yamakage, Susumu",AUTHOR
+877,397,"Yoshii, Hiroaki",AUTHOR
+878,398,"O'Donohue, William",AUTHOR
+879,399,"O'Donohue, William",AUTHOR
+880,400,"Calabrese Barton, Angela",AUTHOR
+881,400,"Herrenkohl, Leslie",AUTHOR
+882,401,"Calabrese Barton, Angela",AUTHOR
+883,401,"Herrenkohl, Leslie",AUTHOR
+884,1997,"Davidson Abella, Anna",AUTHOR
+885,1997,"Vargo, Amy C.",AUTHOR
+886,2002,"Davidson Abella, Anna",AUTHOR
+887,2002,"Vargo, Amy C.",AUTHOR
+888,404,A.P. Alencar,AUTHOR
+889,405,"Mayounga, Andre",AUTHOR
+890,406,"Hernandez, Brianna",AUTHOR
+891,407,"Hernandez, Brianna",AUTHOR
+892,408,"North, Robert",AUTHOR
+893,408,"Lagerstrom, Richard",AUTHOR
+894,408,"Mitchell, William",AUTHOR
+895,409,"North, Robert",AUTHOR
+896,409,"Lagerstrom, Richard",AUTHOR
+897,409,"Mitchell, William",AUTHOR
+898,410,"Toros, Emre",AUTHOR
+899,410,"Birch, Sarah",AUTHOR
+900,6881,"Garibay-Toussaint, Isabel",AUTHOR
+901,6881,"Garibay-Toussaint, Isabel",AUTHOR
+902,6881,"Narchi, Nemer E.",AUTHOR
+903,412,"Geary, Janis",AUTHOR
+904,6913,"Zhou, Chengmin",AUTHOR
+905,6913,"Gu, Wenhui",AUTHOR
+906,414,"Moises de Souza, Ana Carolina",AUTHOR
+907,414,"Soares Cruzes, Daniela",AUTHOR
+908,414,"Jaccheri, Letizia",AUTHOR
+909,414,"Krogstie, John",AUTHOR
+910,415,"Gielens, Erwin",AUTHOR
+911,415,"Roosma, Femke",AUTHOR
+912,415,"Achterberg, Peter",AUTHOR
+913,416,"Butler, Courtney R.",AUTHOR
+914,416,"Currier, Brett D.",AUTHOR
+915,416,"Lillard, Kira M.",AUTHOR
+916,417,"Butler, Courtney R.",AUTHOR
+917,417,"Currier, Brett D.",AUTHOR
+918,417,"Lillard, Kira M.",AUTHOR
+919,418,"Butler, Courtney R.",AUTHOR
+920,418,"Currier, Brett D.",AUTHOR
+921,418,"Lillard, Kira M.",AUTHOR
+922,419,"Neilson, Christine",AUTHOR
+923,420,"Taheri, Abolfazl",AUTHOR
+924,7007,"Hickner, Andy",AUTHOR
+925,7028,"Huaqiang, Li",AUTHOR
+926,7030,"zum Felde, Mareike",AUTHOR
+927,32,"Tobin, Karin E.",AUTHOR
+928,2064,"Tobin, Karin E.",AUTHOR
+929,2069,"Huaqiang, Li",AUTHOR
+930,7032,"zum Felde, Mareike",AUTHOR
+931,7034,"Tobin, Karin E.",AUTHOR
+932,2087,"Tobin, Karin E.",AUTHOR
+933,2092,"Huaqiang, Li",AUTHOR
+934,7035,"zum Felde, Mareike",AUTHOR
+935,7036,"Tobin, Karin E.",AUTHOR
+936,2110,"Tobin, Karin E.",AUTHOR
+937,2115,"Esbensen, Finn-Aage",AUTHOR
+938,2120,"Esbensen, Finn-Aage",AUTHOR
+939,2125,"Herrick, Cynthia",AUTHOR
+940,2129,"Herrick, Cynthia",AUTHOR
+941,2133,"Herrick, Cynthia",AUTHOR
+942,2137,"Rod, Alisa Beth",AUTHOR
+943,7037,"Huaqiang, Li",AUTHOR
+944,7041,"zum Felde, Mareike",AUTHOR
+945,7046,"Mishra, Pradeep Kumar",AUTHOR
+946,7050,"Navarro Gambín, Pedro",AUTHOR
+947,7050,"Bonetti, Marta",AUTHOR
+948,7078,"Navarro Gambín, Pedro",AUTHOR
+949,7078,"Bonetti, Marta",AUTHOR
+950,7078,"VILLA, MATTEO",AUTHOR
+951,7127,"Strategic Health Communication, GEAC",AUTHOR
+952,7129,"Vollrath, Coleman",AUTHOR
