@@ -1,3 +1,0 @@
-id,name,base_url,api_url,notes
-1,Zenodo,https://zenodo.org,https://zenodo.org/api,CERN open research repository; InvenioRDM-based REST API
-10,Harvard Dataverse,https://dataverse.harvard.edu,https://dataverse.harvard.edu/api,Dataverse v6 Search API; no API key needed for public records
