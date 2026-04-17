@@ -75,9 +75,9 @@ Searches the Zenodo REST API (`/api/records`) using a set of queries targeting Q
 
 Searches the Dataverse Search API and then attempts to download files using two strategies in sequence:
 
-1. **Individual file download** — calls `/api/datasets/:persistentId/versions/:latest/files` to get the file list, then downloads each file via `/api/access/datafile/{id}`. This works for datasets hosted directly on Harvard Dataverse.
+1. **Individual file download** : calls `/api/datasets/:persistentId/versions/:latest/files` to get the file list, then downloads each file via `/api/access/datafile/{id}`. This works for datasets hosted directly on Harvard Dataverse.
 
-2. **Dataset zip fallback** — if no individual files are returned (common for datasets cross-listed from ICPSR, DANS, DataONE, etc.), the pipeline falls back to `/api/access/dataset/:persistentId/` which downloads the entire dataset as a single zip file. This is saved as `<dataset_id>.zip` in the project folder.
+2. **Dataset zip fallback** : if no individual files are returned (common for datasets cross-listed from ICPSR, DANS, DataONE, etc.), the pipeline falls back to `/api/access/dataset/:persistentId/` which downloads the entire dataset as a single zip file. This is saved as `<dataset_id>.zip` in the project folder.
 
 Both strategies log their outcome per file with a status: `SUCCEEDED`, `FAILED_LOGIN_REQUIRED`, `FAILED_SERVER_UNRESPONSIVE`, or `FAILED_TOO_LARGE`.
 
