@@ -1,10 +1,12 @@
-# QDArchive
+# QDArchive Part 1: Data Acquisition
 
-## Part 1: Data Acquisition
+**Student:** Shubhangi More · ID: 23137504  
+**Repositories:** Zenodo (Repo #1) · Harvard Dataverse (Repo #10)  
+**Course:** Seeding QDArchive · FAU Erlangen · Winter 2025/26 + Summer 2026
 
-This repository contains the data acquisition pipeline for **Part 1** of the QDArchive seeding project. The goal is to find, download, and catalogue publicly available qualitative research projects with a focus on QDA (Qualitative Data Analysis) files from Zenodo and Harvard Dataverse.
+---
 
-All metadata is stored in a local SQLite database. Downloaded files follow a standardised folder structure. No data is transformed at download time raw values are preserved and quality issues are flagged separately.
+The goal of this part is to find, download, and catalogue publicly available qualitative research projects — with a focus on QDA (Qualitative Data Analysis) files from two assigned repositories. Metadata is stored in a SQLite database. Files are saved as-is with no transformations at download time; data quality issues are flagged separately.
 
 ---
 
@@ -12,21 +14,15 @@ All metadata is stored in a local SQLite database. Downloaded files follow a sta
 
 ```
 .
-├── qdarchive_part1.ipynb       # Main notebook: queries, schema, pipeline
-├── qdarchive_metadata.db       # SQLite database (generated and included)
-├── downloads/                  # Sample downloaded datasets (small subset for GitHub)
+├── 23137504-seeding.ipynb      # Main notebook: queries, schema, pipeline
+├── 23137504-seeding.db         # SQLite metadata database (committed to repo)
+├── downloads/                  # Downloaded datasets (not committed share via link)
 │   ├── zenodo/
 │   │   └── <record_id>/
-│   │       └── small files (e.g. .txt, .csv, .json)
+│   │       └── *.qdpx, *.docx, ...
 │   └── harvard-dataverse/
-│       └── fallback-sample/
-│           └── fallback_dataverse_sample.txt   # manually added fallback file
-├── export/                     # CSV exports of all DB tables
-│   ├── projects.csv
-│   ├── files.csv
-│   ├── keywords.csv
-│   ├── person_role.csv
-│   └── licenses.csv
+│       └── <dataset_id>/
+│           └── *.zip or individual files
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -36,19 +32,15 @@ All metadata is stored in a local SQLite database. Downloaded files follow a sta
 
 ## Setup
 
-**Requirements:** Python 3.10+
+Python 3.10+ required.
 
 ```bash
-# 1. Clone the repo
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <yhttps://github.com/ShubhangiMore0402/SQ26.git>
 
-# 2. Create and activate a virtual environment (recommended)
 python -m venv .venv
-source .venv/bin/activate        # macOS / Linux
-.venv\Scripts\activate           # Windows
+source .venv/bin/activate      # macOS / Linux
+.venv\Scripts\activate         # Windows
 
-# 3. Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -56,97 +48,53 @@ pip install -r requirements.txt
 
 ## Running the notebook
 
-Open `qdarchive_part1.ipynb` in Jupyter or VS Code and run cells top to bottom.
+Open `23137504-seeding.ipynb` in Jupyter or VS Code and run all cells from top to bottom.
 
 ```bash
-jupyter notebook qdarchive_part1.ipynb
-# or
-jupyter lab
+jupyter notebook 23137504-seeding.ipynb
 ```
 
----
-
-## Execution modes
-
-### 1. Dry-run mode (default, safe)
+In **Section 7 (Full Pipeline Run)**, set the mode before running:
 
 ```python
-DRY_RUN = True
+DRY_RUN = True   # default- inserts metadata, simulates downloads, no files written
+DRY_RUN = False  # actually downloads files to the downloads/ folder
 ```
 
-* No files are downloaded
-* Metadata is inserted into SQLite
-* File downloads are simulated
+Run with `DRY_RUN = True` first to verify queries are returning sensible results, then switch to `False` for the real download.
 
 ---
 
-### 2. Full pipeline mode
+## How the download pipeline works
 
-```python
-DRY_RUN = False
-```
+### Zenodo
 
-* Downloads all available files (may be large and slow)
-* Not recommended for GitHub submission due to file size limits
+Searches the Zenodo REST API (`/api/records`) using a set of queries targeting QDA file extensions and qualitative research keywords. For each result with an open license, all files in the record are downloaded and saved under `downloads/zenodo/<record_id>/`.
 
----
+### Harvard Dataverse
 
-### 3. Small sample download mode (used for submission ✅)
+Searches the Dataverse Search API and then attempts to download files using two strategies in sequence:
 
-```python
-run_small_download_sample()
-```
+1. **Individual file download** — calls `/api/datasets/:persistentId/versions/:latest/files` to get the file list, then downloads each file via `/api/access/datafile/{id}`. This works for datasets hosted directly on Harvard Dataverse.
 
-This mode:
+2. **Dataset zip fallback** — if no individual files are returned (common for datasets cross-listed from ICPSR, DANS, DataONE, etc.), the pipeline falls back to `/api/access/dataset/:persistentId/` which downloads the entire dataset as a single zip file. This is saved as `<dataset_id>.zip` in the project folder.
 
-* Downloads a **very small subset of files**
-* Prioritises small formats (`.txt`, `.csv`, `.json`, etc.)
-* Applies a size cap to keep files GitHub-safe
-* Works reliably for Zenodo datasets
-
-👉 For Harvard Dataverse:
-
-* The pipeline attempts API-based downloads
-* Many datasets return **no accessible files or HTTP 403 errors**
-* This is a known limitation of the Dataverse API
-
----
-
-## Harvard Dataverse limitation & workaround
-
-Harvard Dataverse frequently restricts file downloads via API (e.g., HTTP 403 or empty file lists), even for publicly visible datasets.
-
-To ensure the repository meets submission requirements:
-
-* A **small fallback sample file** is included in:
-
-  ```
-  downloads/harvard-dataverse/fallback-sample/
-  ```
-* This file represents the expected dataset structure when files are accessible
-
-👉 The pipeline still:
-
-* correctly queries Dataverse
-* retrieves dataset metadata
-* attempts file downloads
-* logs failures transparently
+Both strategies log their outcome per file with a status: `SUCCEEDED`, `FAILED_LOGIN_REQUIRED`, `FAILED_SERVER_UNRESPONSIVE`, or `FAILED_TOO_LARGE`.
 
 ---
 
 ## SQLite schema
 
-| Table          | Purpose                                              |
-| -------------- | ---------------------------------------------------- |
-| `repositories` | Master list of repositories                          |
-| `projects`     | One row per discovered research project              |
-| `files`        | One row per file; tracks download status             |
-| `keywords`     | Raw keyword strings (no cleaning at ingestion)       |
-| `person_role`  | Contributors with roles (`AUTHOR`, `UPLOADER`, etc.) |
-| `licenses`     | Raw license strings                                  |
+The database file is `23137504-seeding.db` and must be committed to the root of the repository for submission.
 
-Download status values:
-`SUCCEEDED` · `FAILED_SERVER_UNRESPONSIVE` · `FAILED_LOGIN_REQUIRED` · `FAILED_TOO_LARGE`
+| Table | Purpose |
+|---|---|
+| `repositories` | The two assigned repositories (Zenodo, Harvard Dataverse) |
+| `projects` | One row per research project found |
+| `files` | One row per file with download status |
+| `keywords` | Raw keyword strings, one per row |
+| `person_role` | Contributors with role: `AUTHOR`, `UPLOADER`, `OWNER`, `OTHER`, `UNKNOWN` |
+| `licenses` | Raw license string as returned by the API |
 
 ---
 
@@ -154,70 +102,51 @@ Download status values:
 
 ### Zenodo
 
-| Query                                                                             | Rationale                        |
-| --------------------------------------------------------------------------------- | -------------------------------- |
-| `qdpx`                                                                            | Direct hit on REFI-QDA extension |
-| `mx24 OR mqda OR mx22`                                                            | MaxQDA project formats           |
-| `nvp OR nvpx OR atlasproj OR hpr7`                                                | NVivo + ATLAS.ti                 |
-| `"qualitative research data" AND (interview OR transcript)`                       | Explicit qualitative datasets    |
-| `metadata.title:(qualitative) AND metadata.title:(MAXQDA OR NVivo OR "ATLAS.ti")` | Title-field targeting            |
-| `"interview study" AND (transcript OR coding OR thematic)`                        | Methodology-based search         |
+| Query | Rationale |
+|---|---|
+| `qdpx` | Direct hit on the REFI-QDA standard extension |
+| `mx24 OR mqda OR mx22` | MaxQDA project file formats |
+| `nvp OR nvpx OR atlasproj OR hpr7` | NVivo and ATLAS.ti extensions |
+| `"qualitative research data" AND (interview OR transcript)` | Projects explicitly describing qualitative data |
+| `metadata.title:(qualitative) AND metadata.title:(MAXQDA OR NVivo OR "ATLAS.ti")` | Title-field search using QDA tool names |
+| `"interview study" AND (transcript OR coding OR thematic)` | Methodology-based signal words |
 
 ### Harvard Dataverse
 
-| Query                                                            | Rationale                |
-| ---------------------------------------------------------------- | ------------------------ |
-| `qdpx`                                                           | REFI-QDA extension       |
-| `MAXQDA OR NVivo OR "ATLAS.ti"`                                  | Tool-based search        |
-| `"qualitative" AND "interview" AND "transcript"`                 | Interview-based datasets |
-| `"thematic analysis" OR "grounded theory" OR "content analysis"` | Methodology keywords     |
-
----
-
-## Open licenses accepted
-
-Only open-license datasets are downloaded (Zenodo pipeline).
-
-Examples:
-
-`CC BY 4.0` · `CC BY-SA 4.0` · `CC BY-NC 4.0` · `CC BY-ND 4.0` · `CC0 1.0` · `ODbL 1.0` · `ODC-By` · `PDDL`
-
-Datasets without a license are skipped.
+| Query | Rationale |
+|---|---|
+| `qdpx` | REFI-QDA standard extension |
+| `MAXQDA OR NVivo OR "ATLAS.ti"` | QDA tool names — Dataverse indexes file contents |
+| `"qualitative" AND "interview" AND "transcript"` | Interview-based qualitative projects |
+| `"thematic analysis" OR "grounded theory" OR "content analysis"` | Qualitative methodology terms |
 
 ---
 
 ## Known data quality issues
 
-<<<<<<< HEAD
-1. **Keyword format inconsistency** : some keywords appear as comma-separated strings.
-2. **Missing license** : such records are skipped.
-3. **Zenodo file list incomplete** : some records require a secondary API call.
-4. **Language missing (Dataverse)** : not available at search level.
-5. **Cross-repository duplicates** : resolved via DOI in later stages.
-=======
-1. **Keyword format inconsistency** some keywords appear as comma-separated strings
-2. **Missing license** such records are skipped
-3. **Zenodo file list incomplete** some records require a secondary API call
-4. **Language missing (Dataverse)** not available at search level
-5. **Cross-repository duplicates** resolved via DOI in later stages
-6. **Dataverse download restrictions** many datasets block automated file access (HTTP 403)
->>>>>>> c45ec6f (Updated the dowloaded dataset)
+1. **Keyword format inconsistency** — some Zenodo records store multiple keywords as a single comma-separated string rather than separate values. Stored as-is; splitting is deferred to a later step.
+2. **Missing license field** — some records have no license. These are recorded with `NULL` in the licenses table; no records are skipped.
+3. **Zenodo file list incomplete in search response** — the search endpoint does not always include the `files` array. A secondary call to `/api/records/{id}` may be needed.
+4. **Language field absent in Harvard Dataverse** — not available at search-result level; stored as `NULL`.
+5. **Cross-repository duplicates** — some datasets appear on both Zenodo and Harvard Dataverse. DOI-based deduplication is handled in the Part 2 merge step.
+6. **Harvard Dataverse cross-listed datasets** — many results in the HDV search are datasets hosted on third-party repositories (ICPSR, DANS, DataONE). The individual file list API returns empty for these, which is why the zip fallback strategy exists.
 
 ---
 
-## Notes on downloaded datasets
+## Submission
 
-* Only a **small representative subset** of files is included in `downloads/`
-* This is intentional due to:
+The database `23137504-seeding.db` is committed to the root of this repository. Downloaded files are shared via a separate link (too large for GitHub).
 
-  * GitHub file size limits
-  * large dataset sizes
-  * Dataverse API access restrictions
-* The pipeline supports full-scale downloads when `DRY_RUN = False`
+```bash
+git add 23137504-seeding.db
+git commit -m "part-1: add seeding database"
+git tag part-1-release
+git push origin main --tags
+```
 
 ---
 
 ## License
 
-Code in this repository: MIT
-Downloaded research data: governed by individual dataset licenses stored in the database.
+Code: MIT  
+Downloaded research data: see individual project licenses stored in the `licenses` table.
