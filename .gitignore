@@ -5,6 +5,11 @@ __pycache__/
 *.pyd
 .Python
 
+# ── datasets ─────────────────────────────────────────────────────────────
+downloads/
+harvard-dataverse/
+zenodo/
+
 # ── Virtual environments ──────────────────────────────────────────────────────
 .venv/
 venv/
