@@ -120,7 +120,7 @@ The database file is `23137504-seeding.db` and is committed to the root of the r
 | Query | Rationale |
 |---|---|
 | `qdpx` | REFI-QDA standard extension |
-| `MAXQDA OR NVivo OR "ATLAS.ti"` | QDA tool names — Dataverse indexes file contents |
+| `MAXQDA OR NVivo OR "ATLAS.ti"` | QDA tool names- Dataverse indexes file contents |
 | `"qualitative" AND "interview" AND "transcript"` | Interview-based qualitative projects |
 | `"thematic analysis" OR "grounded theory" OR "content analysis"` | Qualitative methodology terms |
 
@@ -130,7 +130,7 @@ The database file is `23137504-seeding.db` and is committed to the root of the r
 
 These were discovered by inspecting real API responses and are flagged in the data rather than silently fixed:
 
-1. **Keyword format inconsistency** : some Zenodo records store multiple keywords as a single comma-separated string rather than separate values. Stored as-is; splitting is deferred to a later step.
+1. **Keyword format inconsistency** : some Zenodo records store multiple keywords as a single comma-separated string rather than separate values. Stored as it is; splitting is deferred to a later step.
 2. **Missing license field** : some records have no license. These are recorded with `NULL` in the licenses table; no records are skipped.
 3. **Zenodo file list incomplete in search response** : the search endpoint does not always include the `files` array. A secondary call to `/api/records/{id}` may be needed.
 4. **Language field absent in Harvard Dataverse** : not available at search-result level; stored as `NULL`.
