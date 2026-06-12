@@ -170,56 +170,6 @@ Both strategies log their outcome per file with a status: `SUCCEEDED`, `FAILED_L
 
 ---
 
-## SQLite schema
-
-The database file is `23137504-seeding.db` and must be committed to the root of the repository for submission.
-
-| Table | Purpose |
-|---|---|
-| `repositories` | The two assigned repositories (Zenodo, Harvard Dataverse) |
-| `projects` | One row per research project found |
-| `files` | One row per file with download status |
-| `keywords` | Raw keyword strings, one per row |
-| `person_role` | Contributors with role: `AUTHOR`, `UPLOADER`, `OWNER`, `OTHER`, `UNKNOWN` |
-| `licenses` | Raw license string as returned by the API |
-
----
-
-## Search queries
-
-### Zenodo
-
-| Query | Rationale |
-|---|---|
-| `qdpx` | Direct hit on the REFI-QDA standard extension |
-| `mx24 OR mqda OR mx22` | MaxQDA project file formats |
-| `nvp OR nvpx OR atlasproj OR hpr7` | NVivo and ATLAS.ti extensions |
-| `"qualitative research data" AND (interview OR transcript)` | Projects explicitly describing qualitative data |
-| `metadata.title:(qualitative) AND metadata.title:(MAXQDA OR NVivo OR "ATLAS.ti")` | Title-field search using QDA tool names |
-| `"interview study" AND (transcript OR coding OR thematic)` | Methodology-based signal words |
-
-### Harvard Dataverse
-
-| Query | Rationale |
-|---|---|
-| `qdpx` | REFI-QDA standard extension |
-| `MAXQDA OR NVivo OR "ATLAS.ti"` | QDA tool names — Dataverse indexes file contents |
-| `"qualitative" AND "interview" AND "transcript"` | Interview-based qualitative projects |
-| `"thematic analysis" OR "grounded theory" OR "content analysis"` | Qualitative methodology terms |
-
----
-
-## Known data quality issues
-
-1. **Keyword format inconsistency** : some Zenodo records store multiple keywords as a single comma-separated string rather than separate values. Stored as it is; splitting is deferred to a later step.
-2. **Missing license field** : some records have no license. These are recorded with `NULL` in the licenses table; no records are skipped.
-3. **Zenodo file list incomplete in search response** : the search endpoint does not always include the `files` array. A secondary call to `/api/records/{id}` may be needed.
-4. **Language field absent in Harvard Dataverse** : not available at search-result level; stored as `NULL`.
-5. **Cross-repository duplicates** : some datasets appear on both Zenodo and Harvard Dataverse. DOI-based deduplication is handled in the Part 2 merge step.
-6. **Harvard Dataverse cross-listed datasets** : many results in the HDV search are datasets hosted on third-party repositories (ICPSR, DANS, DataONE). The individual file list API returns empty for these, which is why the zip fallback strategy exists.
-
----
-
 ## Submission
 
 The database `23137504-seeding.db` is committed to the root of this repository. Downloaded files are shared via a separate link (too large for GitHub).
