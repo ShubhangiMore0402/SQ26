@@ -1,7 +1,7 @@
 # 📘 SeedingQDArchive: Automated Pipeline for Harvesting and Classifying Qualitative Research Datasets
 
 **Student:** Shubhangi More (23137504)  
-**Course:** Applied Software Engineering Seminar/Project — Open-Source Software  
+**Course:** Applied Software Engineering Seminar/Project - Open-Source Software  
 **University:** FAU Erlangen-Nürnberg
 
 ### Repositories
@@ -42,7 +42,7 @@ F --> I[Word Reports]
 
 The pipeline operates in **two distinct phases**.
 
-## Phase 1 — Acquisition
+## Phase 1: Acquisition
 
 Harvests datasets from:
 
@@ -205,7 +205,7 @@ The project consists of two Jupyter notebooks.
 
 ---
 
-## Part 1 — Harvesting & Database Seeding
+## Part 1: Harvesting & Database Seeding
 
 Run:
 
@@ -227,7 +227,7 @@ Output:
 
 ---
 
-## Part 2 — Semantic Classification & Report Generation
+## Part 2: Semantic Classification & Report Generation
 
 Run:
 
@@ -356,5 +356,5 @@ These are preserved in the SQLite database and should be cited individually usin
 
 Special thanks to **Prof. Dr. Dirk Riehle, M.B.A.** for the project brief and guidance throughout both phases of the Seeding QDArchive seminar project:
 
-- Part 1 — Acquisition
-- Part 2 — Classification
+- Part 1: Acquisition
+- Part 2: Classification
