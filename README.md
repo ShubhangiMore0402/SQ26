@@ -71,7 +71,7 @@ using each repository's public API.
 
 ---
 
-## Phase 2 — Classification
+## Phase 2: Classification
 
 Projects are semantically mapped to the **ISIC Rev.5 (International Standard Industrial Classification)** taxonomy (Division level) using sentence-transformer embeddings.
 
